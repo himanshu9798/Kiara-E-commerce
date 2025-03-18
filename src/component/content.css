@@ -1,0 +1,31 @@
+
+.image:hover{
+    transform: scale(1.1);
+
+}
+.viedo{
+    background-image: url(../images/video-image.jpg);
+    background-size: cover;
+    width: 97%;
+    height: 100vh;
+    
+    margin: 2%;
+   
+    
+}
+.rotate {
+    animation: route 10s infinite;
+}
+
+@keyframes route {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.discover2{
+    margin-top: 2%;
+}
+

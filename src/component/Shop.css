@@ -1,0 +1,37 @@
+/* Shop.css */
+
+/* Base button style */
+.add-to-cart-btn {
+    background-color: #28a745; /* Green background */
+    border: 2px solid #28a745; /* Border that matches the background color */
+    outline: none; /* Removes default outline */
+    color: #fff; /* White text color for contrast */
+    padding: 12px 30px; /* Adequate padding for the button */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text to make it stand out */
+    text-transform: uppercase; /* Uppercase letters for a more impactful look */
+    letter-spacing: 1px; /* Spacing between letters for readability */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow to give it a lifted look */
+    text-align: center; /* Centers the text */
+    display: inline-block; /* Makes the button behave as an inline element */
+  }
+  
+  /* Hover effect */
+  .add-to-cart-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    border-color: #218838; /* Darker border on hover */
+    transform: translateY(-3px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover for depth */
+  }
+  
+  /* Active effect */
+  .add-to-cart-btn:active {
+    background-color: #1e7e34; /* Even darker green when clicked */
+    border-color: #1e7e34; /* Dark border when clicked */
+    transform: translateY(2px); /* Button slightly pushes down on click */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Lighter shadow when clicked */
+  }
+  

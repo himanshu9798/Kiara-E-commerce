@@ -1,0 +1,59 @@
+.unique {
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: underline;
+}
+.unique::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.unique:hover::after {
+  width: 50%;
+  border: none;
+}
+.youtube {
+ 
+  border-radius: 60%;
+  background-color: red;
+  color: white;
+}
+.twitter {
+
+  border-radius: 60%;
+  background-color: rgb(12, 153, 218);
+  color: white;
+}
+.facebook {
+  border-radius: 50%;
+  background-color: rgb(54, 9, 214);
+  color: white;
+}
+.instagram:hover {
+    box-shadow: 5px 5px 30px #F7B731, 0 0 20px #FD1D1D, 0 0 10px #833AB4;
+  }
+  
+.instagram {
+  background: linear-gradient(45deg, #833ab4, #fd1d1d, #fdcb82, #f7b731);
+  border-radius: 60%;
+  color: white;
+}
+.facebook:hover {
+  box-shadow: 5px 5px 30px rgb(54, 9, 214);
+}
+.twitter:hover {
+    box-shadow: 5px 5px 30px rgb(12, 153, 218);
+   
+  }
+  .youtube:hover {
+    box-shadow: 5px 5px 30px rgb(126, 3, 3);
+   
+  }
